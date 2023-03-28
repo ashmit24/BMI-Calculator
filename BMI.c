@@ -119,7 +119,7 @@ label2=Label(root,font="arial 20 bold",bg="pink",fg="black")
 label2.place(x=280,y=430)
 
 label3=Label(root,font="arial 10 ",bg="pink")
-label3.place(x=200,y=500)
+label3.place(x=200,y=500 )
 
 
 root.mainloop()
