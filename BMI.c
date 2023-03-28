@@ -28,7 +28,7 @@ def BMI():
         
     elif bmi>25 and bmi<=30:
         label2.config(text="Overweight!")
-        label3.config(text="IT  INDICATES THAT THE PERSON IS \n SLIGHTLY OVERWEIGHT! \n A DOCTOR MAY ADVISE TO LOSE \n WEIGHT FOR HEALTH  REASONS!")
+        label3.config(text="IT   INDICATES THAT THE PERSON IS \n SLIGHTLY OVERWEIGHT! \n A DOCTOR MAY ADVISE TO LOSE \n WEIGHT FOR HEALTH  REASONS!")
         
     else:
         label2.config(text="Obese!")
