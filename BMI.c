@@ -28,7 +28,7 @@ def BMI():
         
     elif bmi>25 and bmi<=30:
         label2.config(text="Overweight!")
-        label3.config(text="IT   INDICATES THAT THE PERSON IS \n SLIGHTLY OVERWEIGHT! \n A DOCTOR MAY ADVISE TO LOSE \n WEIGHT FOR HEALTH  REASONS!")
+        label3.config(text="IT INDICATES THAT THE PERSON IS \n SLIGHTLY OVERWEIGHT! \n A DOCTOR MAY ADVISE TO LOSE \n WEIGHT FOR HEALTH  REASONS!")
         
     else:
         label2.config(text="Obese!")
@@ -90,7 +90,7 @@ def slider_changed(event):
 
 
 slider2=ttk.Scale(root,from_=0, to=200,orient='horizontal',
-                 command=slider_changed,variable=current_value2)
+                 command=slider_changed,variable= current_value2)
 slider2.place(x=300,y=250)
 
 ##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
