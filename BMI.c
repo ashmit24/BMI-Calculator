@@ -57,7 +57,7 @@ Label(root,image=box).place(x=240,y=100)
 scale=PhotoImage(file="C:/Users/HP/Downloads/scale.png")
 Label(root,image=scale,bg="pink").place(x=20,y=310)
 
-################Slider1################
+################Slider1##############
 current_value = tk.DoubleVar()
 
 def get_current_value():
